@@ -1,0 +1,55 @@
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.titleDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(77, 168, 77);
+}
+  
+.titleDiv p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+  
+.buttonBackTransparent {
+  background-color: rgba(0, 0, 0, 0.400);
+  height: 40px;
+  width: 6vw;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-width: 0px;
+  border-radius: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.buttonBackTransparent img {
+  height: auto;
+  width: 25%;
+}
+
+.buttonBackTransparent p {
+  font-size: 1vw;
+}
+
+.greenButton {
+  background-color: forestgreen;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

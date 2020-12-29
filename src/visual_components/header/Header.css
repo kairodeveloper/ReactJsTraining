@@ -1,0 +1,99 @@
+/* HEADER */
+
+.divContainerHeader {
+    height: 65px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .divContainerMenu {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  
+  .logoHeader {
+    height: 40px;
+    width: auto;
+  }
+  
+  .divMenuHeader {
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .itemMenuHeader {
+    padding: 0px;
+    height: 50px;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .itemMenuHeader:hover {
+    background-color: #bdf7bf;
+    color: white;
+  }
+  
+  .itemMenuHeader:hover p {
+    /* box-shadow: 0 5px blue; */
+    color: green;
+    transform: translateY(4px);
+  }
+  
+  .itemMenuHeader:active {
+    background-color: #bdf7bf;
+    /* box-shadow: 0 5px blue; */
+    transform: translateY(1px);
+  }
+  
+  .itemContent {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .itemContent p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  
+  .divBaseMenu {
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+    /* background-color: rgb(77, 168, 77); */
+  }
+  
+  .divTriangleUp {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    margin-top: 40px;
+    z-index: 25;
+  }
+  
+  
+  

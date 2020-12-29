@@ -1,0 +1,63 @@
+.containerFormDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.titleDivMode {
+    justify-content: space-between;
+}
+
+.spaceAtSide {
+    height: 40px;
+    width: 6vw;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    min-height: 100px;
+    width: 500px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    border: 5px solid darkslategray;
+    border-top: 0px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.formItem {
+    height: 50px;
+    border: 2px solid darkslategray;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    outline: none;
+}
+
+.formItem:focus {
+    height: 48px;
+    border: 3px solid forestgreen;
+}
+
+.formItemSelector {
+    height: 50px;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 16px 6px;
+    outline: none;
+}
+
+.formItemSelector:focus {
+    height: 50px;
+    border: 2px solid forestgreen;
+}
